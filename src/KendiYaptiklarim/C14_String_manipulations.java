@@ -23,7 +23,7 @@ public class C14_String_manipulations {
             //isim= isim.toUpperCase().charAt(0);
             //char isimilkHarf= isim.toUpperCase().charAt(0);
             //char soyisimilkHarf= soyisim.toUpperCase().charAt(0);
-
+            //System.out.println(isim.replaceAll());
             System.out.println(isim.substring(0,1).toUpperCase() + isim.substring(1) + " " + soyisim.substring(0,1).toUpperCase()+soyisim.substring(1));
 
         } else if (isim.length() < soyisim.length()) {
