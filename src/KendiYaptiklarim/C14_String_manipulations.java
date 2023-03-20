@@ -30,7 +30,7 @@ public class C14_String_manipulations {
             System.out.println(isim.substring(0,1).toUpperCase() + isim.substring(1) + " " + soyisim.toUpperCase());
 
         }else if (isim.length() == soyisim.length()){
-            System.out.println();
+            System.out.println(isim.toUpperCase() + " " + soyisim.toUpperCase());
         }
     }
 }
