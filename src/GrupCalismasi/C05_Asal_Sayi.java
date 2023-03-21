@@ -14,26 +14,32 @@ public class C05_Asal_Sayi {
 
         System.out.println("Lutfen pozitif bir tam sayi giriniz : ");
 
-        int sayi= scan.nextInt();
-        int sayac= scan.nextInt();
+        int sayi = scan.nextInt();
 
-        if (sayi==1){
-            System.out.println("1 sayisi asal degildir");
-        } else {
-            for (int i = 2; i <sayi ; i++) {
-                if (sayi%i==0){
-                    sayac++;
-                    break;
-                }
-
-            }
-            if (sayac==0){
-                System.out.println("Girilen sayi asaldir");
-            }else {
-                System.out.println("Girilen sayi asal degildir");
+        // Asal sayılar sadece 1 ve kendilerine tam bölünebilen sayılardır.
+        // Bu nedenle, 2'den (sayi-1)'e kadar tüm sayıları kontrol ederek
+        // sayının asal olup olmadığını kontrol edebiliriz.
+        boolean asalMi = true;
+        for (int i = 2; i < sayi; i++) {
+            if (sayi % i == 0) {
+                asalMi = false;
+                break;
             }
         }
 
+        if (asalMi) {
+            System.out.println(sayi + " bir asal sayıdır.");
+        } else {
+            System.out.println(sayi + " bir asal sayı değildir.");
+        }
 
+       //scan.close();
     }
 }
+
+
+
+
+
+
+
