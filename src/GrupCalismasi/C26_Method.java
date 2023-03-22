@@ -22,7 +22,7 @@ public class C26_Method {
 
         //System.out.println(isimSoyisimYazdirma(isim, soyisim));
         //System.out.println(isimSoyisimYazdirma(isim,soyisim));
-        String s = isimSoyisimYazdirma(isim, soyisim);
+        isimSoyisimYazdirma(isim, soyisim);
 
 
     }
