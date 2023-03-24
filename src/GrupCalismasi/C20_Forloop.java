@@ -23,7 +23,7 @@ public class C20_Forloop {
             if (sayi % i == 0) {
 
                 asalMi= false;
-                System.out.println("Bu sayi asal degildir");
+                //System.out.println("Bu sayi asal degildir");
                 break;
             }
         }
