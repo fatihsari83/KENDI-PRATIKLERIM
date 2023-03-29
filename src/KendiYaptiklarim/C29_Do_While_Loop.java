@@ -33,11 +33,12 @@ public class C29_Do_While_Loop {
             }else {
                 System.out.println("Sifre en az 8 karakter olmali");
             }
+
+
             for (int i = 0; i < sifre.length(); i++) {
                 char harf= sifre.charAt(i);
                 if (harf >40 && harf <57){
                     flag++;
-                    break;
                 }else {
                     System.out.println("Lutfen ozel karakter giriniz");
                 }
@@ -46,23 +47,19 @@ public class C29_Do_While_Loop {
                 char harf1= sifre.charAt(i);
                 if (harf1 >101 && harf1  <132) {
                     flag++;
-                    break;
+
                 }else {
                     System.out.println("Lutfen buyuk harf giriniz");
                 }
-
-
-
             }
             for (int i = 0; i < sifre.length(); i++) {
                 char harf2= sifre.charAt(i);
                 if (harf2 >141 && harf2  <172) {
                     flag++;
-                    break;
+
                 }else {
                     System.out.println("Lutfen kucuk harf giriniz");
                 }
-
 
         }
 
