@@ -33,21 +33,21 @@ public class C33_Do_While_Loop {
 
             for (int i = 0; i < sifre.length(); i++) {
                 char harf= sifre.charAt(i);
-                if (harf >40 && harf <57){
+                if (harf >=32 && harf <=47){
                     flag++;
                     break;
                 }
             }
             for (int i = 0; i < sifre.length(); i++) {
                 char harf1= sifre.charAt(i);
-                if (harf1 >101 && harf1  <132) {
+                if (harf1 >=65 && harf1 <= 90) {
                     flag++;
                     break;
                 }
             }
             for (int i = 0; i < sifre.length(); i++) {
                 char harf2= sifre.charAt(i);
-                if (harf2 >141 && harf2  <172) {
+                if (harf2 >=97 && harf2 <= 122) {
                     flag++;
                     break;
 

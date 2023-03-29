@@ -36,22 +36,22 @@ public class C30_Sifre {
             }
 
             char harf = sifre.charAt(sifre.length());
-            if (harf > 40 && harf < 57) {
+            if (harf >= 32 && harf <= 47) {
                 flag++;
             } else {
                 System.out.println("Lutfen ozel karakter giriniz");
             }
             char harf1 = sifre.charAt(sifre.length());
-            if (harf1 > 101 && harf1 < 132) {
+            if (harf1 >= 65 && harf1 <= 90) {
                 flag++;
-                break;
+                //break;
             } else {
                 System.out.println("Lutfen buyuk harf giriniz");
             }
             char harf2 = sifre.charAt(sifre.length());
-            if (harf2 > 141 && harf2 < 172) {
+            if (harf2 >= 97 && harf2 <= 122) {
                 flag++;
-                break;
+                //break;
             }else{
                 System.out.println("Lutfen kucuk harf giriniz");
             }
