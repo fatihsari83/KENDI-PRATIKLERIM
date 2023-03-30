@@ -39,8 +39,6 @@ public class C29_Do_While_Loop {
                 char harf= sifre.charAt(i);
                 if (harf >40 && harf <57){
                     flag++;
-                }else {
-                    System.out.println("Lutfen ozel karakter giriniz");
                 }
             }
             for (int i = 0; i < sifre.length(); i++) {
@@ -48,8 +46,6 @@ public class C29_Do_While_Loop {
                 if (harf1 >101 && harf1  <132) {
                     flag++;
 
-                }else {
-                    System.out.println("Lutfen buyuk harf giriniz");
                 }
             }
             for (int i = 0; i < sifre.length(); i++) {
@@ -57,8 +53,6 @@ public class C29_Do_While_Loop {
                 if (harf2 >141 && harf2  <172) {
                     flag++;
 
-                }else {
-                    System.out.println("Lutfen kucuk harf giriniz");
                 }
 
         }

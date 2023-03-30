@@ -50,7 +50,7 @@ public class C34_While_loop_Sifre_Sorusu {
             }
             for (int i = 0; i < sifre.length(); i++) {
                 char harf2 = sifre.charAt(i);
-                if (!(harf2 >='a' && harf2 <='z')) {
+                if (harf2 >='a' && harf2 <='z') {
                     küçükHarf++;
                     flag++;
                     break;
@@ -71,7 +71,7 @@ public class C34_While_loop_Sifre_Sorusu {
             }
 
         }while (flag != 3) ;
-        System.out.println("şifreniz kabul edilmiştir.");
+        System.out.println("şifreniz kabul edilmiştir." + flag);
     }
 
 }

@@ -1,5 +1,6 @@
 package Arrays;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class C09_Soru9 {
@@ -14,7 +15,7 @@ donduren bir method olusturun.
         System.out.print("Dizi boyutunu girin: ");
 
         int [] arr = arrayDonduren();
-        System.out.println(arr);
+        System.out.println(Arrays.toString(arr));
     }
     public static int [] arrayDonduren (){
 
