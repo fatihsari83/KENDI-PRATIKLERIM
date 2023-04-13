@@ -1,7 +1,7 @@
 package GrupCalismasi;
 
 public class Deneme {
-    String isim="Johne Doe";
+    String isim="John Doe";
     int yas=40;
 
     public Deneme(){
@@ -22,6 +22,6 @@ public class Deneme {
     }
 
     public static void main(String[] args) {
-        Deneme obj1= new Deneme("Ali");
+        Deneme obj1= new Deneme("Esra");
     }
 }
